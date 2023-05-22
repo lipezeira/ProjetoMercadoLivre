@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.site{
+	background-color:#845EC2;
+	display:grid;
+	grid-template-columns:5% 35% 20% 35% 5%;
+	width:205vh;
+	height:100vh;
+	grid-template-rows:50px auto auto auto 100px;
+	/*grid-template-areas:"menu menu menu menu menu"
+						". contum meio contdois ."
+						". contum meio contdois ."
+						". contum meio contdois ."
+						"rodape rodape rodape rodape rodape";*/
+}
